@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "go get -u github.com/tdewolff/minify && hugo --gc --minify"
+command = "go get -u github.com/tdewolff/minify && grunt lunr-index && hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.56.3"
