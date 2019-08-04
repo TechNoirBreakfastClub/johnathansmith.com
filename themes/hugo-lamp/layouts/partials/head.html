@@ -29,8 +29,8 @@
 <!--Google fonts-->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400" rel="stylesheet">
 
-{{ $style := resources.Get "sass/style.scss" | toCSS | postCSS | minify | fingerprint }}
-<link href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" rel="stylesheet"/>
+{{ $style := resources.Get "sass/style.scss" | toCSS | postCSS | minify }}
+<link href="{{ $style.Permalink }}" rel="stylesheet"/>
 <!-- Favicon and Touch icons -->
 <link rel="icon" href="{{ "/uploads/johnathansmith.jpg" | absURL }}"/>
 <meta name="apple-mobile-web-app-capable" content="yes">
