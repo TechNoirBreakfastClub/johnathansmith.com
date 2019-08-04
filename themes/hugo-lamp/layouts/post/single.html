@@ -1,0 +1,26 @@
+{{ define "main" }}
+    {{ partial "header.html" . }}
+    <section class="main post-detail">
+        <header class="post-header">
+            <h1 class="post-title">{{ .Title }}</h1>
+            {{ if isset .Params "subtitle" }}
+                <h2 class="post-subtitle">{{ .Params.subtitle }}</h2>
+            {{end}}
+            <p class="entry-meta"><span class="entry-time">{{ .Date.Format "Jan 2, 2006" }}</span> {{ .ReadingTime }}
+                min read
+            </p>
+        </header>
+        <article class="post-content">{{ .Content }}</article>
+        <footer class="post-footer">
+            <div id="newsletter">
+                <div class="container">
+                    <div class="description"> Get notified when I write something cool.</div>
+
+                </div>
+            </div>
+
+            {{ partial "tags.html" . }}
+        </footer>
+    </section>
+    {{ partial "footer.html" . }}
+{{ end }}

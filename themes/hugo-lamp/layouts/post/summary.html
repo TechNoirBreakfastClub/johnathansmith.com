@@ -1,0 +1,29 @@
+<article class="entry-single">
+    {{ if isset .Params "cover" }}
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+            <img alt="{{ .Title }}"  class="entry-cover"
+                     src="{{ .Params.cover }}" />
+        </a>
+    {{ end }}
+    <header class="entry-header">
+        <h3 class="entry-title"><a href="{{ .Permalink }}" title="{{ .Title }}" class="entry-link">{{ .Title }}</a></h3>
+        {{ if .Params.subtitle }}<h4 class="entry-subtitle"><small>{{ .Params.subtitle }}</small></h4>{{ end }}
+    </header>
+
+    {{ $summary := "" }}
+    {{ if .Params.summary  }}
+        {{ $summary = .Params.summary }}
+    {{ else }}
+        {{ $summary = .Summary }}
+    {{ end }}
+    <p class="entry-summary">{{ $summary | plainify | htmlUnescape }}</p>
+
+    <div class="read-more-container">
+        <a href="{{ .Permalink }}" title="{{ .Title }}" class="read-more"></a>
+    </div>
+
+    <footer class="entry-footer">
+        <p class="entry-meta"><span class="entry-time">{{ .Date.Format "Jan 2, 2006" }}</span>{{ .ReadingTime }} min read
+        </p>
+    </footer>
+</article>
