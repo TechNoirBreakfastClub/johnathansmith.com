@@ -1,4 +1,5 @@
-{{ $descriptions := slice .Params.meta_description .Site.Params.Description .Description .Summary "" }}
+{{ $descriptions := slice .Params.meta_description .Summary .Description .Site.Params.Description  "" }}
+{{/*{{ print .Params }}*/}}
 {{ $description := "" }}
 {{ range $elem_key, $elem_val := $descriptions }}
     {{ if $elem_val }}
