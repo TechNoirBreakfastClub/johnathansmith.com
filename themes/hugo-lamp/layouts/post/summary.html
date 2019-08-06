@@ -1,8 +1,16 @@
 <article class="entry-single">
-    {{ if isset .Params "cover" }}
-        <a href="{{ .Permalink }}" title="{{ .Title }}">
+
+
+    {{ if .Params.cover }}
+        <a href="{{ .Permalink }}" title="{{ .Title }}" class="entry-cover-container">
             <img alt="{{ .Title }}"  class="entry-cover"
                      src="{{ .Params.cover }}" />
+        </a>
+    {{ end }}
+    {{ if and (.Params.image) (not .Params.cover) }}
+        <a href="{{ .Permalink }}" title="{{ .Title }}" class="entry-cover-container">
+            <img alt="{{ .Title }}"  class="entry-cover"
+                     src="{{ .Params.image }}" />
         </a>
     {{ end }}
     <header class="entry-header">

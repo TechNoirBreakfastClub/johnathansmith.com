@@ -33,6 +33,7 @@ function initLunr() {
         } else {
             var err = textStatus + ", " + error;
             console.error("Error getting Hugo index flie:", err);
+            alert('Could Not Load Search File');
         }
     };
 
