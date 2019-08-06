@@ -21,17 +21,21 @@
     }
   }
 
-  &-cover {
-    max-width: 100%;
+  &-cover-container {
+    display: inline-block;
     border-radius: $radius-large $radius-large 0 0;
     object-fit: cover;
     box-shadow: none;
-    float: left;
+    float: right;
     height: auto;
     width: auto;
     max-height: 300px;
     max-width: 500px;
-    margin-right: 2rem;
+    margin-left: $space-large;
+    &-cover {
+      width: 100%;
+    }
+
   }
 
   &-title {
@@ -62,7 +66,7 @@
   }
 
   &-summary {
-    padding: 0 $space-large;
+    padding: 0;
     text-align: justify;
     //max-height: 4rem;
     //overflow: hidden;
