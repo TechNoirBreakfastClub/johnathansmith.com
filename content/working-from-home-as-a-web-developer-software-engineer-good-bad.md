@@ -49,7 +49,3 @@ you'll definitely notice a difference.
 Slack is great, but at times, sending a message to a coworker is less than ideal. 
 Sometimes this is ok, but it would be easier to hop over to their desk and chat
 about the issue. This is especially true with things like debugging and code reviews.
-
-That was a quick writeup.
-
-\- Johnathan

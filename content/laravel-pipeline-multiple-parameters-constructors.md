@@ -126,5 +126,3 @@ class DataManipulatorTest extends TestCase
 ```
 
 So you may not need this. It may be a bit overkill. When possible, it's best to create objects and do things via object oriented programming methodology. However, if there are a series of steps, where things may be erratic, this technique may be helpful.
-
-\- Johnathan
