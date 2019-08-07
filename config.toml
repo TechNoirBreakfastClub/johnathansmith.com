@@ -34,11 +34,6 @@ googleAnalytics = "UA-145118156-1"          # Google Analytics UA number
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "Originals"
-  weight = 2
-  identifier = "originals"
-  url = "/originals/"
-[[menu.main]]
   name = "About Me"
   weight = 3
   identifier = "about"
