@@ -18,23 +18,8 @@
     {{ end }}
 
 
-
-{{/*    {{ $titles := slice .Title .Site.Params "seotitle" .Site.Title "" }}*/}}
-{{/*    {{ $title := "" }}*/}}
-{{/*    {{ range $title_key, $title_value := $titles }}*/}}
-{{/*      {{ if $title_value }}*/}}
-{{/*        {{ if not $title  }}*/}}
-{{/*          {{ $title = $title_value }}*/}}
-{{/*        {{ end }}*/}}
-{{/*      {{ end }}*/}}
-{{/*    {{ end }}*/}}
-
-
     <!-- Page Title -->
     <title>{{ partial "title.html" . }}</title>
-
-
-
     <!-- Shared Head -->
     {{ partial "head.html" . }}
   </head>

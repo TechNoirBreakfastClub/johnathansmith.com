@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: "Author Name"
+author: Johnathan Smith
 cover: 
 images:
 tags: ["laravel", "php"]
@@ -9,5 +9,6 @@ draft: true
 summary:
 description: 
 meta_description:
+type: original
 ---
 

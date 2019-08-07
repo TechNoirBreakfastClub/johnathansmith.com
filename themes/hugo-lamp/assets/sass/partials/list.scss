@@ -22,18 +22,30 @@
   }
 
   &-cover-container {
-    display: inline-block;
-    border-radius: $radius-large $radius-large 0 0;
-    object-fit: cover;
     box-shadow: none;
-    float: right;
     height: auto;
     width: auto;
-    max-height: 300px;
-    max-width: 500px;
-    margin-left: $space-large;
-    &-cover {
-      width: 100%;
+    display: block;
+    object-fit: cover;
+    text-align: center;
+
+    @media (min-width: $desktop) {
+      margin-left: $space-large;
+      display: inline-block;
+      float: right;
+      max-width: 200px;
+    }
+    @media (min-width: $widescreen) {
+      max-width: 500px;
+    }
+    .entry-cover-image {
+      height: auto;
+      max-height: 100%;
+      max-width: 100%;
+      display: inline-block;
+      @media (min-width: $desktop) {
+        width: auto;
+      }
     }
 
   }

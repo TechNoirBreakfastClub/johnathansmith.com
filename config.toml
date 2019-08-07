@@ -4,7 +4,9 @@ title = "Johnathan Smith - Full Stack Laravel Developer & Consultant"
 theme = "hugo-lamp"
 googleAnalytics = "UA-145118156-1"          # Google Analytics UA number
 
-
+[permalinks]
+    originals = "/originals/:title/"
+    pages = "/:title/"
 [params]
   titleName = "Johnathan Smith"
   subtitle = "Full Stack Laravel Developer + Consultant"
@@ -27,22 +29,27 @@ googleAnalytics = "UA-145118156-1"          # Google Analytics UA number
   category = "categories"
 
 [[menu.main]]
-  name = "Posts"
+  name = "Home"
   weight = 1
   identifier = "home"
   url = "/"
 [[menu.main]]
-  name = "About Me"
+  name = "Originals"
   weight = 2
+  identifier = "originals"
+  url = "/originals/"
+[[menu.main]]
+  name = "About Me"
+  weight = 3
   identifier = "about"
   url = "/about/"
 [[menu.main]]
   name = "Resume"
-  weight = 3
+  weight = 4
   identifier = "resume"
   url = "/resume/"
 [[menu.main]]
   name = "Search"
-  weight = 4
+  weight = 5
   identifier = "search"
   url = "/search/"
