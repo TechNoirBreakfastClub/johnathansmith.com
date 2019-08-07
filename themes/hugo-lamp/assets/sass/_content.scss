@@ -1,0 +1,11 @@
+@media (min-width: $desktop) {
+  .main:not(.entry-list) {
+    > article *, > header, > footer {
+      max-width: $content-max;
+    }
+
+    > article pre, > article code {
+      max-width: 100%;
+    }
+  }
+}

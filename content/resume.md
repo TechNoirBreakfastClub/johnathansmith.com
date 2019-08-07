@@ -13,7 +13,7 @@ Self-motivated, detail oriented ​Software Engineer w​ith extensive experienc
 
 ### CORE COMPETENCIES
 
-<table align="center">
+<table align="left">
     <tr>
         <td align="center">PHP & Laravel</td>
         <td align="center">PHPUnit + TDD</td>
