@@ -1,4 +1,4 @@
-{{ $titles := slice .Title .Site.Params "seotitle" .Site.Title "" }}
+{{ $titles := slice .Title .Site.Params.seotitle .Site.Title "" }}
 {{ $title := "" }}
 {{ range $title_key, $title_value := $titles }}
     {{ if $title_value }}
