@@ -4,7 +4,7 @@
   {{ else }}
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-      {{ if or ($currentPage.IsMenuCurrent "originals" .) ($currentPage.HasMenuCurrent "originals" .) }}
+      {{ if or ($currentPage.IsMenuCurrent "posts" .) ($currentPage.HasMenuCurrent "posts" .) }}
         {{ .Name }}
       {{ end }}
     {{ end }}
@@ -18,12 +18,12 @@
     <header class="list-header">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
-        {{ if or ($currentPage.IsMenuCurrent "original" .) ($currentPage.HasMenuCurrent "originals" .) }}
+        {{ if or ($currentPage.IsMenuCurrent "posts" .) ($currentPage.HasMenuCurrent "posts" .) }}
           <h2 class="list-label">{{ .Name }} Posts</h2>
         {{ end }}
       {{ end }}
     </header>
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "original") (index .Site.Params "paginate" | default 10) }}
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") (index .Site.Params "paginate" | default 10) }}
     {{ if ne $paginator.TotalPages 0 }}
       {{ range $paginator.Pages.ByDate.Reverse }}
         {{ .Render "summary" }}
