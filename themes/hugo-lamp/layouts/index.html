@@ -1,6 +1,14 @@
 {{ define "main" }}
 {{ partial "header.html" . }}
 <section class="main entry-list">
+  <div id="author-bio" class="cf">
+    <p><img src="/uploads/johnathansmith.jpg" class="author-photo" />
+      <strong>Johnathan Smith</strong><br />I'm a web developer that specializes in Laravel, PHP, Vue, Javascript and more.
+      I work 100% remotely from my home office near Raleigh, NC.</p>
+  </div>
+  <hr />
+  <br />
+
   {{ $paginator := .Paginate (where .Data.Pages "Type" "post") (index .Site.Params "paginate" | default 10) }}
   {{ if ne $paginator.TotalPages 0 }}
   {{ range $paginator.Pages.ByDate.Reverse }}
