@@ -890,11 +890,11 @@ button:hover {
   //font-family: 'Roboto Mono', monospace;
 }
 
-.post-content p {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  text-align: justify
-}
+//.post-content p {
+//  margin-top: 1.5rem;
+//  margin-bottom: 1.5rem;
+//  text-align: justify
+//}
 
 .post-content blockquote {
   background-color: transparent;
@@ -1337,6 +1337,9 @@ label,
 .page {
   h3 {
     margin-bottom: 30px;
+  }
+  .post-footer {
+    border-top: none;
   }
 }
 
