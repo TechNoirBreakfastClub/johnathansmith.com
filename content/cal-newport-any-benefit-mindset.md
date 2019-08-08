@@ -11,7 +11,7 @@ image:
 cover: https://www.getabstract.com/summary-img/26157-JMJKWDZK.jpg?s=social
 ---
 
-I was recently reading "Deep Work" by Cal Newport There was a _great wealth_ of knowledge in there. 
+I was recently reading "Deep Work" by Cal Newport, a book packed with knowledge. 
 One of the things that was really interesting was the concept of "any benefit".
 This is something I have thought about before, but didn't quite put it quite 
 as elegantly as he did.
