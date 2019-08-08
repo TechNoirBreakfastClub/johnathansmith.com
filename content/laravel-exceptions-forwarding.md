@@ -3,6 +3,7 @@ title: "Laravel Exceptions - Forwarding on Errors"
 subtitle: Automatically Redirect the User When Thrown
 author: Johnathan Smith
 cover: 
+image: https://miro.medium.com/max/1200/1*TToqy6Hkf4ETiDvYALMiyg.png
 images:
 tags: ["laravel", "php", "exceptions", "laravel tips and tricks"]
 date: 2019-08-08T08:58:36-04:00
