@@ -18,9 +18,12 @@
     <header class="list-header">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
-        {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+        {{ if or ($currentPage.IsMenuCurrent "home" .) ($currentPage.HasMenuCurrent "home" .) }}
           <h2 class="list-label">{{ .Name }} Posts</h2>
         {{ end }}
+      {{ end }}
+      {{ if  in .Permalink "/tags/"}}
+        <h2 class="list-label">Tag: {{ .Name | title }}</h2>
       {{ end }}
     </header>
     {{ $paginator := .Paginate (where .Data.Pages "Type" "post") (index .Site.Params "paginate" | default 10) }}

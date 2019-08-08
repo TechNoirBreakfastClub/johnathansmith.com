@@ -32,8 +32,12 @@
     </div>
 
     <footer class="entry-footer">
+
         <p class="entry-meta"><span class="entry-time">{{ .Date.Format "Jan 2, 2006" }}</span>{{ .ReadingTime }} min
             read
         </p>
+
+        {{ partial "tags.html" . }}
+
     </footer>
 </article>

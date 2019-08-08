@@ -6,6 +6,9 @@
             {{ if isset .Params "subtitle" }}
                 <h2 class="post-subtitle">{{ .Params.subtitle }}</h2>
             {{end}}
+
+            {{ partial "tags.html" . }}
+
             <p class="entry-meta"><span class="entry-time">{{ .Date.Format "Jan 2, 2006" }}</span> {{ .ReadingTime }}
                 min read
             </p>
@@ -13,8 +16,7 @@
         <article class="post-content">{{ .Content }}</article>
         <footer class="post-footer">
             {{ partial "johnathan-author.html" . }}
-
-            {{ partial "tags.html" . }}
+{{/*            {{ partial "tags.html" . }}*/}}
         </footer>
     </section>
     {{ partial "footer.html" . }}

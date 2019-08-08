@@ -1,5 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+subtitle: 
 author: Johnathan Smith
 cover: 
 images:
