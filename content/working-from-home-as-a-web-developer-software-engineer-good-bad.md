@@ -8,7 +8,7 @@ tags: ["work", "remote", "working from home"]
 description: I have now been working 100% remotely for a year. From this, I have gathered lots of knowledge about the pros and cons of this style of work.
              I'll attempt to lay them out as succinctly as possible.
 image: 
-cover: 
+cover: https://media0.giphy.com/media/O6VoexTrRs6eQ/source.gif
 summary: I have now been working 100% remotely for a year. From this, I have gathered lots of knowledge about the pros and cons of this style of work.
          I'll attempt to lay them out as succinctly as possible.
 ---
