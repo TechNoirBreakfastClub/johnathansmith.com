@@ -129,3 +129,5 @@ class RemoveEmptyParagraphsTest extends TestCase
 ```
 
 This will work with a series of steps, especially if you need something like a pipeline and/or decorator that has multiple parameters and constructors. I think this has _some_ advantages to the existing pipeline. This is merely an alternative for certain cases.
+
+![](https://media.giphy.com/media/5txEwCBREwRJWJtvoI/giphy.gif)

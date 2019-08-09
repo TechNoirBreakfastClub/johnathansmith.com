@@ -78,3 +78,5 @@ try {
 
 This will retain the forwarding, but still be able to catch a different exception
 if needed.
+
+![](https://thumbs.gfycat.com/IncredibleGrouchyEarwig-size_restricted.gif)

@@ -41,3 +41,5 @@ I have to agree with this assessment regarding most of social media. But more im
   knows what else?
   
 My advice: quit if there's very little benefit and lots of time spent.
+
+![](https://media.tenor.com/images/7590b97219d9e4c26e7d3b97fa6ba627/tenor.gif)
