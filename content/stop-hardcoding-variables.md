@@ -118,3 +118,5 @@ refactored the code so that it is far more easy to comprehend.
 
 Keep making good design decisions like this and you will really up 
 your dev game! 
+
+![](https://4.bp.blogspot.com/-vq1ict0dIQ8/ViQB1mZSoiI/AAAAAAAAA-4/6NlvJ7N3Jo0/s1600/55381710.jpg)
