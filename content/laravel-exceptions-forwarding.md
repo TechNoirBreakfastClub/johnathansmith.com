@@ -5,7 +5,7 @@ author: Johnathan Smith
 cover: 
 image: https://miro.medium.com/max/1200/1*TToqy6Hkf4ETiDvYALMiyg.png
 images:
-tags: ["laravel", "php", "exceptions", "laravel tips and tricks"]
+tags: ["laravel", "php", "exceptions", "tips and tricks"]
 date: 2019-08-08T08:58:36-04:00
 draft: false
 summary: Did you know that you can auto-forward on exception? Laravel makes this process incredibly simple and easy. An extremely useful trick!
