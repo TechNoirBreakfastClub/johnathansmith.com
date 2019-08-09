@@ -4,7 +4,7 @@ subtitle: An Alternative and Testable Way to Mutate Data with Laravel's Service 
 date: 2019-06-23T03:03:18.687Z
 draft: false
 type: post
-tags: ["laravel", "PHP", "pipeline", "design pattern", "decorator"]
+tags: ["laravel", "PHP", "pipeline", "design pattern", "decorator", "tips and tricks"]
 description:
   A Laravel specific trick sequentially manipulate data. Allows for testable
   pipelines that utilize the service container and multiple parameters and constructors.

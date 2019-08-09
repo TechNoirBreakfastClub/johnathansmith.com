@@ -41,7 +41,8 @@ Self-motivated, detail oriented ​Software Engineer w​ith extensive experienc
 
 Bisnow (2018 - Present)<br />*Software Engineer*
 
-Working 100% remotely to create vital, enterprise-level web applications that serve tens of thousands of customers daily and is utilized by a staff of nearly 100.
+Working 100% remotely to create vital, enterprise-level web applications that serve tens of thousands of customers daily
+and generates millions of dollars in revenue. Developed front-end, CMS, and APIs that is used daily by a staff of nearly 100.
 
 - Excels at clearly understanding and communicating technical information in both written and oral form.
 - Involved with all aspects of the software development cycle from requirements gathering, design, implementation, testing, and all the way through maintenance.
