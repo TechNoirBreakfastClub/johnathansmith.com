@@ -3,7 +3,7 @@ backend:
   branch: master
   site_url: https://johnathansmith.com
 
-media_folder: "img/uploads"
+media_folder: "uploads"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
