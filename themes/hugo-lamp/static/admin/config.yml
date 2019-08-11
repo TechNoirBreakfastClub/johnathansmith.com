@@ -3,8 +3,6 @@ backend:
   branch: master
   site_url: https://johnathansmith.com
 
-publish_mode: editorial_workflow
-
 media_folder: "img/uploads"
 
 collections:
