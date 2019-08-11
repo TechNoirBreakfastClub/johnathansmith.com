@@ -23,7 +23,61 @@ This will create an OutputStyles class in `app/Console/Commands`.
 Now let's fill out the `handle` method. Here's what it will look like 
 for this test.
 
+```php
+<?php
+
+namespace App\Console\Commands;
+
+use Illuminate\Console\Command;
+
+class OutputStyles extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'output:styles';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Call output methods to see what they look like.';
+
+    /**
+     * Execute the console command.
+     *
+     * @return mixed
+     */
+    public function handle()
+    {
+        $this->line('This is the "line" method.');
+        $this->info('This is the "info" method.');
+        $this->comment('This is the "comment" method.');
+        $this->question('This is the "question" method.');
+        $this->error('This is the "error" method.');
+    }
+}
+```
 
 
+Alright! Now let's see what they look like, by running `php artisan output:styles`.
 
+![Laravel Commands](https://johnathansmith.com/uploads/laravel-command-output-method-styles.png)
+
+
+Very cool! But something interesting is happening underneath. The
+methods are actually just shortcuts to `line($output, $style)`.
+So the method `info()` is really just:
+```php
+    public function info($string, $verbosity = null)
+    {
+        $this->line($string, 'info', $verbosity);
+    }
+```
+
+I would still use the shortcuts and not use line with the style passed.
+It keeps things clearer.
 
