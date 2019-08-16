@@ -7,8 +7,8 @@ type: post
 tags: ["PHP", "Unit Testing",  "tips and tricks"]
 description:
 image: 
-cover: https://miro.medium.com/max/1121/1*HgoWZ4dD3rj2sPZbVjaoPw@2x.jpeg
-summary: A unit testing tip that will save you tons of time and effort...
+cover: https://i.pinimg.com/originals/21/77/4c/21774c49405bbaf6b2255da1a74bdfa7.gif
+summary: A unit testing tip that will save you tons of time and effort inspired by Zoolander.
 ---
 
 Derek Zoolander always wants things *so big*!
@@ -36,3 +36,4 @@ help your testing immensely. It will also prevent you from testing
 an enormous amount of private methods (because you're doing too much)!
 
 Don't be like Zoolander. You must want it small!
+![](/uploads/zoolander-unit-testing.gif)
