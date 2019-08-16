@@ -3,8 +3,7 @@ title: "About Johnathan"
 date: 2019-07-23T03:03:18.687Z
 draft: false
 type: "page"
-description:
-  About Johnathan Smith
+description: Johnathan Smith is a web developer that specializes in Laravel, PHP, Vue, Javascript and more. He works 100% remotely from his home office in North Carolina.
 image: 
 ---
 
