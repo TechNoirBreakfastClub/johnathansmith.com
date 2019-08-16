@@ -3,12 +3,10 @@ title: "Resume"
 date: 2019-07-23T03:03:18.687Z
 draft: false
 type: "page"
-description:
-  Resume for Johnathan Smith
 image: 
 ---
 
-Self-motivated, detail oriented ​Software Engineer w​ith extensive experience in multiple languages and stacks including: PHP, Laravel, JavaScript/Vue, Relational and NoSQL databases, HTML, CSS and more. Exhibits superior communication skills and the ability to collaborate across departments. Excels at engineering modular, testable, object-oriented applications for assorted business specifications. Highly proficient at turning concepts into critical services and applications.
+Self-motivated, detail oriented Software Engineer with extensive experience in multiple languages and stacks including: PHP, Laravel, JavaScript/Vue, Relational and NoSQL databases, HTML, CSS and more. Exhibits superior communication skills and the ability to collaborate across departments. Excels at engineering modular, testable, object-oriented applications for assorted business specifications. Highly proficient at turning concepts into critical services and applications.
 
 
 ### CORE COMPETENCIES
@@ -42,7 +40,7 @@ Self-motivated, detail oriented ​Software Engineer w​ith extensive experienc
 Bisnow (2018 - Present)<br />*Software Engineer*
 
 Working 100% remotely to create vital, enterprise-level web applications that serve tens of thousands of customers daily
-and generates millions of dollars in revenue. Developed front-end, CMS, and APIs that is used daily by a staff of nearly 100.
+and generates millions of dollars in revenue. Developed front-end, CMS, and APIs that is used daily by a staff of nearly 100. Engineered products and sites earn several millions of dollars in sales and sponsorship.
 
 - Excels at clearly understanding and communicating technical information in both written and oral form.
 - Involved with all aspects of the software development cycle from requirements gathering, design, implementation, testing, and all the way through maintenance.
