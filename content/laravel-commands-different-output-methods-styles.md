@@ -5,11 +5,11 @@ date: 2019-08-10T21:06:39-04:00
 draft: false
 type: "post"
 tags: ["laravel", "PHP", "pipeline", "commands"]
-cover: https://picsum.photos/id/137/1376/800
-summary: There are four command output methods. What do they look like in the CLI?
+cover: https://i1.wp.com/wp.laravel-news.com/wp-content/uploads/2017/08/custom-artisan-commands.png?resize=2200%2C1125
+summary: There are five command output methods. What do they look like in the CLI?
 ---
 
-There are four command output methods in a  [Laravel command](https://laravel.com/docs/5.8/artisan#writing-commands):
+There are five command output methods in a  [Laravel command](https://laravel.com/docs/5.8/artisan#writing-commands):
 
 - `line`
 - `info`
@@ -81,3 +81,4 @@ So the method `info()` is really just:
 I would still use the shortcuts and not use line with the style passed.
 It keeps things clearer.
 
+![](https://i.giphy.com/media/3orieWHDxeoe27n6Vy/giphy.webp)
