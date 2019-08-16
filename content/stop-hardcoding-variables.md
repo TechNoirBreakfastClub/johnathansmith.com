@@ -9,7 +9,7 @@ tags: ["php", "tips and tricks", "laravel"]
 date: 2019-08-08T10:18:21-04:00
 draft: false
 summary: A mistake I see in a lot of beginner devs is hardcoding variables inside your code.
-         This is not a good practice, and I see it all to often. Let's fix that
+         This is not a good practice, and I see it all too often. Let's fix that
          and make our code cleaner. 
 description: 
 meta_description:
@@ -17,7 +17,7 @@ type: post
 ---
 
 A mistake I see in a lot of beginner devs is hardcoding variables inside your code.
-This is *not* a good practice, and I see it all to often. Here's a few scenarios:
+This is *not* a good practice, and I see it all too often. Here's a few scenarios:
 
 - Urls
 - Environment variables
