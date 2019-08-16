@@ -12,9 +12,10 @@ summary: A unit testing tip that will save you tons of time and effort inspired 
 ---
 
 Derek Zoolander always wants things *so big*!
-![](http://www.quickmeme.com/img/89/89dd7fe7cae4737cb3af42080838b498d1d6dca75c66027ae4564d68aaa5f6fe.jpg)
 
-Are you ready to find out the _single best_ method to help writing
+![](https://i.ibb.co/tsqPWxM/3timesbigger.jpg)
+
+Let's put Zoolander's advice to the side for now. Are you ready to find out the _single best_ method to help writing
 unit tests? Here it is:
 
 *SMALL CLASS SIZES!*
@@ -35,5 +36,6 @@ the smaller ones as constructor dependencies in the larger. This will
 help your testing immensely. It will also prevent you from testing
 an enormous amount of private methods (because you're doing too much)!
 
-Don't be like Zoolander. You must want it small!
+Don't be like Zoolander. *Small is good*!
+
 ![](/uploads/zoolander-unit-testing.gif)
