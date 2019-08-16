@@ -3,6 +3,7 @@ title: "Resume"
 date: 2019-07-23T03:03:18.687Z
 draft: false
 type: "page"
+description: Resume for web developer Johnathan Smith. He specializes in Laravel, PHP, Vue, Javascript and more. He works 100% remotely from his home office in North Carolina.
 image: 
 ---
 
