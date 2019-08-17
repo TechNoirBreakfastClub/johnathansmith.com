@@ -1,10 +1,10 @@
 ---
-title: "Resume"
+title: "Resume - Johnathan Smith"
+subtitle: "Full Stack Laravel Developer + Consultant"
 date: 2019-07-23T03:03:18.687Z
 draft: false
 type: "page"
-description: Resume for web developer Johnathan Smith. He specializes in Laravel, PHP, Vue, Javascript and more. He works 100% remotely from his home office in North Carolina.
-image: 
+meta_description: Resume for web developer Johnathan Smith. He specializes in Laravel, PHP, Vue, Javascript and more. He works 100% remotely from his home office in North Carolina.
 ---
 
 Self-motivated, detail oriented Software Engineer with extensive experience in multiple languages and stacks including: PHP, Laravel, JavaScript/Vue, Relational and NoSQL databases, HTML, CSS and more. Exhibits superior communication skills and the ability to collaborate across departments. Excels at engineering modular, testable, object-oriented applications for assorted business specifications. Highly proficient at turning concepts into critical services and applications.

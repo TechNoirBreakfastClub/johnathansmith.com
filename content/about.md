@@ -1,10 +1,10 @@
 ---
 title: "About Johnathan"
+subtitle: "Full Stack Laravel Developer + Consultant"
 date: 2019-07-23T03:03:18.687Z
 draft: false
 type: "page"
-description: Johnathan Smith is a web developer that specializes in Laravel, PHP, Vue, Javascript and more. He works 100% remotely from his home office in North Carolina.
-image: 
+meta_description: Johnathan Smith is a web developer that specializes in Laravel, PHP, Vue, Javascript and more. He works 100% remotely from his home office in North Carolina.
 ---
 
 Johnathan got started doing web development in the non-profit world shortly after graduating from UNC. He then learned about Laravel and its great ecosystem and adopted it rather quickly. He's been specializing in that for over four years, which includes Vue as well.
