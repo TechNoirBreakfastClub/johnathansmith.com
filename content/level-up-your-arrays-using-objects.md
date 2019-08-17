@@ -77,8 +77,8 @@ class CartVariables {
 ```
 
 Now we can pass this around to all the classes and services (or one of it's variables) 
-and never have to go back and loop up keys to the array. We can also type-hint
- all those other functions, so we know _exactly_ the data that we are dealting with.
+and never have to go back and look up keys to the array. We can also type-hint
+ all those other functions, so we know _exactly_ the data that we are dealing with.
  And remember, objects are passed _by reference_ not _by value_ like an array.
  
  I would _not_ do this in your initial code, but if you see yourself operating on or
