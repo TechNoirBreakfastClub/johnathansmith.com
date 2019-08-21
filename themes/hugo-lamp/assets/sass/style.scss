@@ -342,7 +342,8 @@ template {
   text-transform: none;
   line-height: 1em;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none !important;
 }
 
 .icon-menu:before {
