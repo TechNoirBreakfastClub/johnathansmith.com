@@ -27,13 +27,13 @@ mindsets rationalize this by saying...
 might possibly miss out on if you don't use it.
 
 
-Newport says this doesn't make sense. Something is not worthwile if there is only a _modicum_ of benefit.
+Newport says this doesn't make sense. Something is not worthwhile if there is only a _modicum_ of benefit.
 What about something more important: _net benefit_?
 
 Rather, he wants us to use the "Craftsman Approach".
 With that he says: 
 
-> Identify the core factors that determin success and happiness in your professional and personal life. Adopt a tool only if its positive impacts on these factors substantially outweight its negtative impact.
+> Identify the core factors that determine success and happiness in your professional and personal life. Adopt a tool only if its positive impacts on these factors substantially outweigh its negative impact.
 
 I have to agree with this assessment regarding most of social media. But more importantly, I
  see this absolutely everywhere. The question is, where else do we see 
