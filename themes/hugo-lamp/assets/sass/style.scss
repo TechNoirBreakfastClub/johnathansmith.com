@@ -13,13 +13,14 @@
 @import 'partials/error';
 @import '_fonts';
 @import '_author-bio';
+@import '_menu';
 
-body {
-  -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-  -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-  -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
-  animation: -amp-start 8s steps(1, end) 0s 1 normal both
-}
+//body {
+//  -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+//  -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+//  -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+//  animation: -amp-start 8s steps(1, end) 0s 1 normal both
+//}
 
 @-webkit-keyframes -amp-start {
   from {
@@ -591,54 +592,6 @@ button:hover {
   font-size: 23px;
 }
 
-.menu {
-  display: none
-}
-
-@media screen and (min-width: 800px) {
-  .menu {
-    display: block
-  }
-}
-
-.menu-list {
-  margin-top: 30px;
-  list-style: none;
-  padding: 0
-}
-
-.menu-item {
-  padding: 10px;
-}
-
-.menu-item a {
-  font-weight: 450;
-  opacity: .8;
-  color: #fff
-}
-
-.menu-item a:focus,
-.menu-item a:hover {
-  opacity: 1
-}
-
-.menu-item.is-active a {
-  color: #63D1F4;
-  opacity: 1;
-  font-weight: 500
-}
-
-.menu-toggle {
-  border: none;
-  outline: none;
-  font-size: 2rem;
-  background-color: transparent;
-  color: #20242b;
-  position: absolute;
-  top: 1rem;
-  right: 1rem
-}
-
 #codefund {
   width: 100%;
   padding-top: 20px;
@@ -668,55 +621,6 @@ button:hover {
   li {
     margin: 0 10px;
   }
-}
-
-@media screen and (min-width: 800px) {
-  .menu-toggle {
-    display: none
-  }
-}
-
-.sidebar {
-  background-color: #20242b;
-  width: 100vw
-}
-
-@media screen and (min-width: 640px) {
-  .sidebar {
-    width: 50vw
-  }
-}
-
-.sidebar-list {
-  list-style: none;
-  padding: 0;
-  margin: 0
-}
-
-.sidebar-menu {
-  text-align: right;
-  padding: 16px
-}
-
-.sidebar-item {
-  font-size: 2rem;
-  padding: 20px 25px 20px 15px;
-  border-top: 1px solid #ddd
-}
-
-.sidebar-icon {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  color: #fff;
-  //font-family: 'Roboto Mono',monospace;
-  font-weight: 100;
-  font-size: 2rem
-}
-
-.sidebar-link {
-  color: #fff;
-  font-weight: 200
 }
 
 .social-list {

@@ -26,21 +26,10 @@
 
     </ul>
 
-    <button class="menu-toggle" aria-hidden="true" type="button" on="tap:sidebar.open">
+    <button id="menu-toggle" class="menu-toggle" aria-hidden="true" type="button">
         <span class="icon icon-menu"></span>
     </button>
 
-    <!-- Sidebar is header on desktop -->
-    <nav class="menu">
-        <ul class="menu-list">
-            {{ $currentPage := . }}
-            {{ range .Site.Menus.main }}
-                {{ $active := eq $currentPage.RelPermalink .URL }}
-                <li class="menu-item {{if $active }} is-active {{ end }}"><a class="sidebar-link"
-                                                                                href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
-        </ul>
-
-    </nav>
+    {{ partial "nav.html" . }}
 
 </header>
