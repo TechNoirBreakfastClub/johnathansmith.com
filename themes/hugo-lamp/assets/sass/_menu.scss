@@ -113,6 +113,14 @@
   .menu {
     display: block;
   }
+
+  #menu-toggle {
+    display: none !important;
+  }
+  body {
+
+    padding-top: 30px;
+  }
 }
 
 
