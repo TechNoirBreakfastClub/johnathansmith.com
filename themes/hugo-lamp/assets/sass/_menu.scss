@@ -51,10 +51,6 @@
 
 
 #menu-toggle {
-  background-color: $color-link;
-  border-radius: 10%;
-  display: inline-block;
-  width: 50px;
 }
 @media screen and (max-width: $tablet - 1) {
 .menu {
@@ -89,8 +85,6 @@
       content: "\2715";
     }
     .menu {
-      display: -ms-flexbox!important;
-      display: flex!important;
       position: fixed;
       top: 0;
       right: 0;
@@ -99,6 +93,8 @@
       z-index: 10;
       height: 100%;
       width: 100%;
+      display: -ms-flexbox!important;
+      display: flex!important;
       -ms-flex-pack: center!important;
       justify-content: center!important;
       -ms-flex-line-pack: center!important;
@@ -119,7 +115,7 @@
   }
   body {
 
-    padding-top: 30px;
+    //padding-top: 30px;
   }
 }
 
@@ -157,10 +153,23 @@
   border: none;
   outline: none;
   font-size: 2rem;
-  background-color: transparent;
   color: #20242b;
   position: absolute;
   top: 1rem;
-  right: 1rem
+  right: 1rem;
+
+  background-color: $color-link;
+  border-radius: 10%;
+  padding: 0;
+  margin: 0;
+  width: 50px;
+
+  display: -ms-flexbox!important;
+  display: flex!important;
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+  -ms-flex-line-pack: center!important;
+  align-content: center!important;
+
 }
 
