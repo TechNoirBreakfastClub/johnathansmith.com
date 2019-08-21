@@ -52,7 +52,9 @@
 
 #menu-toggle {
   background-color: $color-link;
-  border-radius: 20px;
+  border-radius: 10%;
+  display: inline-block;
+  width: 50px;
 }
 @media screen and (max-width: $tablet - 1) {
 .menu {
