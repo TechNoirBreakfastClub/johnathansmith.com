@@ -80,6 +80,10 @@ html, body {
   html.menu-open {
     height: 100vh !important;
     overflow-y: hidden;
+    body {
+      overflow: hidden;
+      position: fixed;
+    }
     .menu-toggle {
       z-index: 400;
     }
