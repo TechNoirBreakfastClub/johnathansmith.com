@@ -8,7 +8,7 @@ images:
 tags: ["laravel", "php"]
 date: 2019-08-26T23:13:28-04:00
 draft: false
-summary:I have found podcasts are a great way to keep up to date with a lot of the latest information. I've compiled a list of a few I really like.
+summary: I have found podcasts are a great way to keep up to date with a lot of the latest information. I've compiled a list of a few I really like.
 description: I have found podcasts are a great way to keep up to date with a lot of the latest information. I've compiled a list of a few I really like.
 meta_description: I have found podcasts are a great way to keep up to date with a lot of the latest information. I've compiled a list of a few I really like.
 type: post
