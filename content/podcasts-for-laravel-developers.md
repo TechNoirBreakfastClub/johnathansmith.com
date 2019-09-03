@@ -17,6 +17,14 @@ type: post
 I have found podcasts are a great way to keep up to date with a lot of 
 the latest information. I've compiled a list of a few I really like.
 
+
+## [Command Line Heroes](https://www.redhat.com/en/command-line-heroes)
+
+Recently discovered and probably my _favorite_ podcast. It's like a really well done NPR piece, but about
+computers and technology, including both their history and their future. 
+Extraordinarily well-done with great writing and interviews. While not Laravel
+specific, you *must* give it a listen.
+
 ## [Laravel Snippet](https://player.fm/series/the-laravel-snippet)
 
 This is the podcast from Taylor Otwell, the creator of Laravel. He usually 
