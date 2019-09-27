@@ -2,7 +2,7 @@
 title: "Podcasts for Laravel Developers"
 subtitle: "Boost your dev knowledge!"
 author: Johnathan Smith
-cover: 
+cover: "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/02/shutterstock_163052525-730x342.jpg"
 image:
 images:
 tags: ["laravel", "php"]
