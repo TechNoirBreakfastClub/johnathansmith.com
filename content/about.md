@@ -16,6 +16,8 @@ He enjoys family time, gardening, trying new coffee blends, and engineering awes
 Some other technologies that currently pique his interest are:
 
 - Go
+- Node
 - Python
 - Asynchronous and parallel processing
 - IoT
+- .Net Core
