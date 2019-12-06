@@ -43,8 +43,9 @@ Eloquent.
 The CTE inside the `with` statements will be translated to the method `withExpression`.
 
 ```php
-\App\User
-    ::withExpression('user_search', static function (Builder $query) {
+use Staudenmeir\LaravelCte\Query\Builder;
+
+\App\User::withExpression('user_search', static function (Builder $query) {
         $query->from('users')
             ->select('id')
             ->selectRaw('concat(name, email) as search_string');
