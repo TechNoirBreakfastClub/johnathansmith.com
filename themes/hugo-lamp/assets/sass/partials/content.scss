@@ -73,21 +73,21 @@
   }
 
   hr {
-    position: relative;
-    margin: 2rem auto;
-    border-top: 1px dashed $border-color;
-    border-bottom: none;
+    //position: relative;
+    //margin: 2rem auto;
+    //border-top: 1px dashed $border-color;
+    //border-bottom: none;
 
     &::before {
-      content: "sep line";
-      position: absolute;
-      top: -12px;
-      left: calc(50% - 40px);
-      padding: 0 0.5rem;
-      background-color: $white;
-      color: $grey-light;
-      font-size: $size-7;
-      font-family: $family-monospace;
+      //content: "sep line";
+      //position: absolute;
+      //top: -12px;
+      //left: calc(50% - 40px);
+      //padding: 0 0.5rem;
+      //background-color: $white;
+      //color: $grey-light;
+      //font-size: $size-7;
+      //font-family: $family-monospace;
     }
   }
 

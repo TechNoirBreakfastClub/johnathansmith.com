@@ -129,9 +129,9 @@ figure {
 }
 
 hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible
+  //box-sizing: content-box;
+  //height: 0;
+  //overflow: visible
 }
 
 pre {
@@ -777,21 +777,22 @@ button:hover {
 }
 
 .post-content hr {
-  position: relative;
-  margin: 2rem auto;
-  border-top: 1px dashed #ddd;
-  border-bottom: none
+  //position: relative;
+  margin: 3rem auto;
+  width: 100%;
+  //border-top: 1px dashed #ddd;
+  //border-bottom: none
 }
 
 .post-content hr:before {
-  content: "sep line";
-  position: absolute;
-  top: -12px;
-  left: calc(50% - 40px);
-  padding: 0 .5rem;
-  background-color: #20242b;
-  color: #ddd;
-  font-size: .8rem;
+  //content: "sep line";
+  //position: absolute;
+  //top: -12px;
+  //left: calc(50% - 40px);
+  //padding: 0 .5rem;
+  //background-color: #20242b;
+  //color: #ddd;
+  //font-size: .8rem;
   //font-family: 'Roboto Mono', monospace;
 }
 

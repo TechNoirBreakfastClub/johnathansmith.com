@@ -3,6 +3,9 @@
     > article *, > header, > footer {
       max-width: $content-max;
     }
+    hr {
+      max-width: 100%;
+    }
 
     > article {
       pre, code {
