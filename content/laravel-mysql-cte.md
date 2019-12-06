@@ -78,3 +78,5 @@ and much more.
 - [INSTR function](http://www.mysqltutorial.org/mysql-instr/)
 - [CONCAT function](http://www.mysqltutorial.org/sql-concat-in-mysql.aspx)
 - [Laravel CTE package](https://github.com/staudenmeir/laravel-cte)
+
+![](https://i.gifer.com/origin/61/61056367e0cb311e36cdc4ad4c52c42e.gif)
